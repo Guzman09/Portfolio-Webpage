@@ -1,0 +1,121 @@
+.panel-body{
+	font-size:36px;
+
+}
+.marquee{
+		margin: 0 auto;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    box-sizing: border-box;
+	    animation: marquee 40s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}
+
+.marquee{
+	    padding-left: 1.5em;
+	    position: relative;
+	    font: 26px 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.jumbotron{
+	background-image: url("img/jumbo.jpg") ;
+	background-size: cover;
+
+}
+
+#jumbo{
+	color: white;
+}
+#jumbo h1{
+	color: #337ab7;
+}
+
+.well{
+padding: 20px;
+	font-family: monospace sans-serif;
+}
+
+.well h1{
+	text-align: ;
+}
+
+.well p{
+	padding: 30px;
+	font-size: 22px;
+}
+
+
+.logo{
+	font-size: 100px;
+	padding: 0;
+	color: #337ab7;
+}
+.logo:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.logo2{
+	font-size: 100px;
+	padding: 0;
+	display: inline-block;
+	color: #337ab7;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.logo2:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+#section3 .container h2{
+	text-align: center;
+}
+
+#logos{
+	text-align: center;
+}
+body{
+	font-family: Montserrat , sans-serif;
+}
+
+#jumbo p{
+	font-family: Lato, sans-serif;
+}
+
+#mailAddress{
+	color: #337ab7;
+}
+
+#phoneNumber{
+	color: #337ab7;
+}
